@@ -1,0 +1,38 @@
+body {
+  font-family: arial;
+}
+
+.map {
+  width: 500px;
+  background: #ccc;
+  border: 1px solid #333;
+  padding-bottom: 15px;
+}
+.map h3 {
+  text-align: center;
+  border-bottom: 1px solid #999;
+  padding-bottom: 10px;
+}
+.pole {
+  margin:25px auto; overflow: hidden; width: 1000px;
+}
+.user, .comp {
+  border: 1px solid #666;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+}
+
+.comp {
+  cursor: pointer;
+}
+
+
+/* клетки */
+.act_1 {
+  background: #333
+}
+
+#comp .act_1 {
+  background-color: #ccc;
+}
